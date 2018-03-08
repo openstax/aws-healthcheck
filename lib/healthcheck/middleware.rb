@@ -7,7 +7,7 @@ module Healthcheck
     end
 
     def call(env)
-      return [200, {}, []] if ROUTE_PATTERN.match env['PATH_INFO']
+      return [ 200, {}, [] ] if ROUTE_PATTERN.match env['PATH_INFO']
 
       @app.call env
     end
