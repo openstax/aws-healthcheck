@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    openstax_healthcheck (0.0.1)
+    openstax_healthcheck (0.0.2)
       rails (>= 3.0)
 
 GEM

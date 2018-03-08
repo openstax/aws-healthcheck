@@ -9,7 +9,7 @@ require "rails/test_unit/railtie"
 
 Bundler.require(*Rails.groups)
 
-require 'healthcheck'
+require 'openstax_healthcheck'
 
 module Dummy
   class Application < Rails::Application

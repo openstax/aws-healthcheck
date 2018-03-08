@@ -1,12 +1,12 @@
 $LOAD_PATH.push File.expand_path('../lib', __FILE__)
 
 # Maintain your gem's version:
-require 'healthcheck/version'
+require 'openstax/healthcheck/version'
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = 'openstax_healthcheck'
-  s.version     = Healthcheck::VERSION
+  s.version     = OpenStax::Healthcheck::VERSION
   s.authors     = ['Logan Serman', 'Dante Soares']
   s.email       = ['dante.m.soares@rice.edu']
   s.homepage    = 'https://github.com/openstax/healthcheck'
