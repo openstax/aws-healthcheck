@@ -1,6 +1,7 @@
 # OpenStax Healthcheck
 
-[![Build Status](https://travis-ci.org/openstax/healthcheck.svg?branch=master)](https://travis-ci.org/openstax/healthcheck)
+[![Gem Version](https://badge.fury.io/rb/openstax_healthcheck.svg)](http://badge.fury.io/rb/openstax_healthcheck)
+[![Tests](https://github.com/openstax/healthcheck/workflows/Tests/badge.svg)](https://github.com/openstax/healthcheck/actions?query=workflow:Tests)
 
 This gem defines a route in your Rails app for ELB healthchecks.
 The only thing that this middleware does is return 200 OK if the route matches a regex pattern.
